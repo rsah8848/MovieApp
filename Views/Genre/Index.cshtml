@@ -1,0 +1,74 @@
+﻿@model IEnumerable<IdentityMovie.Models.Genre>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Genres</h1>
+
+<!-- Include DataTables CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+<!-- Include DataTables JS -->
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+<br />
+
+@*This Displays Alert Messages.*@
+@if(TempData["GenreAdded"]!=null)
+{
+    <div class="alert alert-success">
+        <strong>Success</strong> @TempData["GenreAdded"]
+    </div>
+}
+
+@if (TempData["GenreRemove"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["GenreRemove"]
+    </div>
+}
+
+@if (TempData["GenreUpdate"] != null)
+{
+    <div class="alert alert-secondary">
+         @TempData["GenreUpdate"]
+    </div>
+}
+
+
+<p>
+    <a div class="btn btn-primary" asp-action="Create">Create New</a>
+</p>
+<table id="myGenreTable" class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.GenreName)
+            </th>
+            <th class="text-end">CRUD ACTIONS</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td >
+               @Html.DisplayFor(modelItem => item.GenreName)
+            </td>
+
+            <td class="text-end">
+                <a class="btn btn-primary" asp-controller="Genre" asp-action="Update" asp-route-id="@item.Id">Edit</a> |
+                <a class="btn btn-danger" asp-controller="Genre" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<script>
+
+    $(document).ready(function () { //enhancing an HTML table with DataTables functionality, such as sorting, searching, and pagination.
+            $('#myGenreTable').DataTable(
+            {
+                pageLength: 5
+            });
+        });
+ </script>

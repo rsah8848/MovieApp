@@ -1,0 +1,56 @@
+﻿@model IdentityMovie.Models.Genre
+
+@{
+    ViewData["Title"] = "Genre";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create Genre</h1>
+<h4 class="btn-color-grey">List a new Genre.</h4>
+<hr />
+<div class="row">
+    <div class="col-6">
+        <div class="card">
+            <div class="card-header">
+                <h5>Insert Genre Detail</h5>
+            </div>
+            <div class="card-body">
+                <form asp-controller="Genre" asp-action="Create" method="post">
+                    <div class="mb-3">
+                        <div>
+                            <label class="form-label">Genre Name</label>
+                            <input asp-for="GenreName" type="text" class="form-control" />
+                            <br />
+                        </div>
+                        <div>
+                            <button type="submit" class="btn btn-primary">Save</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="card-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

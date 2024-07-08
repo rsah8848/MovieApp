@@ -1,0 +1,58 @@
+﻿@model IEnumerable<IdentityMovie.Models.Year>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Years</h1>
+<!-- Include DataTables CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+<!-- Include DataTables JS -->
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+<br />
+@if (TempData["AlertMessage"] != null)
+{
+    <div class="alert alert-success">
+        <strong> Success</strong> @TempData["AlertMessage"]
+    </div>
+}
+<p>
+    <a div class="btn btn-primary" asp-action="Create">Create New</a>
+</p>
+<table id="myYearTable" class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Years)
+            </th>
+            <th class="text-end">CRUD ACTIONS</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Years)
+                </td>
+                <td class="text-end">
+                    <a class="btn btn-primary" asp-controller="Year" asp-action="Update" asp-route-id="@item.Id">Edit</a> |
+                    <a class="btn btn-danger" asp-controller="Year" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@*enhancing an HTML table with DataTables functionality, such as sorting, searching, and pagination.*@
+<script>
+    
+    $(document).ready(function () {
+        $('#myYearTable').DataTable(
+            {
+                pageLength: 6
+            });
+    });
+</script>

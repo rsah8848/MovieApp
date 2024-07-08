@@ -1,0 +1,329 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\IdentityMovie.bundle.scp.css",
+      "PackagePath": "staticwebassets\\IdentityMovie.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\Images\\movielogo.jpg",
+      "PackagePath": "staticwebassets\\Images\\movielogo.jpg"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\Movie\\CoverPhotoScreenshot 2023-09-17 100744.png",
+      "PackagePath": "staticwebassets\\Movie\\CoverPhotoScreenshot 2023-09-17 100744.png"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\Movie\\CoverPhoto\\020230919_141030.jpg",
+      "PackagePath": "staticwebassets\\Movie\\CoverPhoto\\020230919_141030.jpg"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\Movie\\CoverPhoto\\020230919_141033.jpg",
+      "PackagePath": "staticwebassets\\Movie\\CoverPhoto\\020230919_141033.jpg"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\Movie\\CoverPhoto\\020230919_141037.jpg",
+      "PackagePath": "staticwebassets\\Movie\\CoverPhoto\\020230919_141037.jpg"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\Movie\\CoverPhoto\\020230919_141041.jpg",
+      "PackagePath": "staticwebassets\\Movie\\CoverPhoto\\020230919_141041.jpg"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\Movie\\CoverPhoto\\0Flag.jpg",
+      "PackagePath": "staticwebassets\\Movie\\CoverPhoto\\0Flag.jpg"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\Movie\\CoverPhoto\\0Screenshot 2023-08-07 080903.png",
+      "PackagePath": "staticwebassets\\Movie\\CoverPhoto\\0Screenshot 2023-08-07 080903.png"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\Movie\\CoverPhoto\\0Screenshot 2023-09-16 152101.png",
+      "PackagePath": "staticwebassets\\Movie\\CoverPhoto\\0Screenshot 2023-09-16 152101.png"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\Movie\\CoverPhoto\\0Screenshot 2023-09-17 100744.png",
+      "PackagePath": "staticwebassets\\Movie\\CoverPhoto\\0Screenshot 2023-09-17 100744.png"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\Movie\\CoverPhoto\\0Screenshot 2023-09-18 213424.png",
+      "PackagePath": "staticwebassets\\Movie\\CoverPhoto\\0Screenshot 2023-09-18 213424.png"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\Movie\\CoverPhoto\\0Screenshot 2023-09-18 214102.png",
+      "PackagePath": "staticwebassets\\Movie\\CoverPhoto\\0Screenshot 2023-09-18 214102.png"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\Movie\\CoverPhoto\\0Screenshot 2023-09-19 151613.png",
+      "PackagePath": "staticwebassets\\Movie\\CoverPhoto\\0Screenshot 2023-09-19 151613.png"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\Movie\\CoverPhoto\\0Screenshot 2023-09-19 214654.png",
+      "PackagePath": "staticwebassets\\Movie\\CoverPhoto\\0Screenshot 2023-09-19 214654.png"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\Movie\\CoverPhoto\\0Screenshot 2023-09-24 135151.png",
+      "PackagePath": "staticwebassets\\Movie\\CoverPhoto\\0Screenshot 2023-09-24 135151.png"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Codeology\\DotNet\\IdentityMovie\\IdentityMovie\\wwwroot\\pngtree-happy-bhai-tika-hindi-calligraphy-lettering-greetings-png-image_8711726.png",
+      "PackagePath": "staticwebassets\\pngtree-happy-bhai-tika-hindi-calligraphy-lettering-greetings-png-image_8711726.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.IdentityMovie.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.IdentityMovie.props",
+      "PackagePath": "build\\IdentityMovie.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.IdentityMovie.props",
+      "PackagePath": "buildMultiTargeting\\IdentityMovie.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.IdentityMovie.props",
+      "PackagePath": "buildTransitive\\IdentityMovie.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

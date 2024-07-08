@@ -1,0 +1,46 @@
+﻿@using IdentityMovie.Models.ViewModel;
+@model CommentsVM
+
+
+<div class="col-md-12">
+    @if (Model.Comments != null)
+    {
+        @foreach (var comment in @Model.Comments)
+        {
+            <div class="container mt-2">
+                <div class="d-flex justify-content-center row">
+                    <div class="col-md-8">
+                        <div class="d-flex flex-column comment-section">
+                            <div class="bg-white p-2">
+                                <div class="d-flex flex-row user-info">
+                                    <input type="hidden" id="CommentId" value="@comment.CommentId">
+                                    <div class="d-flex flex-column justify-content-start ml-2"><span class="d-block font-weight-bold name">@comment.UserName</span><span class="date text-black-50">@comment.CreatedAt</span></div>
+                                </div>
+                                <div class="mt-2">
+                                    <p class="comment-text">@comment.Text</p>
+                                </div>
+                            </div>
+                            <div class="bg-white">
+                                <div class="d-flex flex-row fs-12">
+                                    @* <div class="like p-2 cursor"><i class="fa fa-thumbs-o-up"></i><span class="ml-1">Like</span></div>
+                                    <div class="like p-2 cursor"><i class="fa fa-commenting-o"></i><span class="ml-1">Comment</span></div>
+                                    <div class="like p-2 cursor"><i class="fa fa-share"></i><span class="ml-1">Share</span></div> *@
+                                    <div class="like p-2 cursor"><i class="fa fa-share"></i><span class="ml-1 text-danger"  asp-a onclick="DeleteComment();">Delete</span></div>
+
+                                    <a asp-action="DeleteComment" asp-controller="Comment" asp-route-movieId="@comment.CommentId" asp-route-commentId="@comment.CommentId">Edit</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        }
+    }
+</div>
+
+
+
+
+

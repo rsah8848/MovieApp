@@ -1,0 +1,140 @@
+﻿@model IdentityMovie.Models.ViewModel.MovieDetailsVM
+﻿@using IdentityMovie.Models.ViewModel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    body {
+        background: #eee
+    }
+
+    .date {
+        font-size: 11px
+    }
+
+    .comment-text {
+        font-size: 12px
+    }
+
+    .fs-12 {
+        font-size: 12px
+    }
+
+    .shadow-none {
+        box-shadow: none
+    }
+
+    .name {
+        color: #007bff
+    }
+
+    .cursor:hover {
+        color: blue
+    }
+
+    .cursor {
+        cursor: pointer
+    }
+
+    .textarea {
+        resize: none
+    }
+</style>
+<div>
+    <h4>Movie</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Photo Cover:
+        </dt>
+        <dd class="col-sm-10">
+            <img src="~/@Model.Movie.Photo" alt="Movie Image" class="img-fluid rounded" width="200" height="200" />
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Movie.Title)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Movie.Title)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Movie.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Movie.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Movie.Year)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Year.Years)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Movie.Genre)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Genre.GenreName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Movie.Country)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Country.Name)
+        </dd>
+    </dl>
+
+    <h4>Provide your Comment</h4>
+    @if (User.Identity.IsAuthenticated)
+    {
+        <partial name="../Comment/AddComment" model="@Model?.Movie.MovieId" />
+    }
+    else{
+    <h3>Please login first</h3>
+    }
+
+       
+
+    <div class="col-md-12">
+        @if (Model.Comments != null)
+        {
+            @foreach (var comment in @Model.Comments)
+            {
+                <div class="container mt-2">
+                    <div class="d-flex justify-content-start row">
+                        <div class="col-md-8">
+                            <div class="d-flex flex-column comment-section">
+                                <div class="bg-white p-2">
+                                    <div class="d-flex flex-row user-info">
+                                        <input type="hidden" id="CommentId" value="@comment.CommentId">
+                                        @* <img class="rounded-circle" src="https://i.imgur.com/RpzrMR2.jpg" width="40"> *@
+                                        <div class="d-flex flex-column justify-content-start ml-2"><span class="d-block font-weight-bold name">@comment.UserName</span>@* <span class="date text-black-50">@comment.CreatedAt</span> *@</div>
+                                    </div>
+                                    <div class="mt-2 ">
+                                        <p class="comment-text">@comment.Text</p>
+                                    </div>
+                                </div>
+                                @if(User.Identity.Name == comment.UserName)
+                                {
+                                    <div class="bg-blue">
+                                        <div class="d-flex flex-row fs-12">
+                                            <a asp-action="DeleteComment" asp-controller="Comment" asp-route-movieId="@Model.Movie.MovieId" asp-route-commentId="@comment.CommentId">Delete</a>
+                                        </div>
+                                    </div>
+                                    
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            }
+        }
+    </div>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Movie.MovieId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+

@@ -1,0 +1,57 @@
+﻿@model IEnumerable<IdentityMovie.Models.Country>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@if (TempData["SuccessMessages"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessages"]
+    </div>
+}
+
+
+<h1>Countries</h1>
+<!-- Include DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css"> @*DataTable Css*@
+    <!-- Include DataTables JS -->
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script> @*DataTable JS*@
+<br/>
+
+
+<p>
+    <a div class="btn btn-primary" asp-action="Create">Create New</a>
+</p>
+<table id="myCountryTable"  class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th class="text-end">CRUD ACTIONS</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td class="text-end">
+               <a class="btn btn-primary" asp-controller="Country" asp-action="Update" asp-route-id="@item.Id">Edit</a>
+                <a class="btn btn-danger" asp-controller="Country" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<script>
+
+    $(document).ready(function () { //enhancing an HTML table with DataTables functionality, such as sorting, searching, and pagination.
+            $('#myCountryTable').DataTable(
+            {
+                pageLength : 4
+            });
+        });
+ </script>
